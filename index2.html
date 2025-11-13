@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Beautiful Game (Dynamic Page)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="site-title">⚽ The Beautiful Game</h1>
+      <p class="tagline">Soccer unites the world: Learn its rules, history, and legends.</p>
+    </header>
+
+    <!-- JS will fill this area -->
+    <main id="content"></main>
+
+    <footer>All Rights Reserved</footer>
+
+    <!-- Template -->
+    <template id="section-tpl">
+      <section>
+        <h2 class="sec-title"></h2>
+        <img class="sec-img" src="" alt="" />
+        <p class="sec-text"></p>
+      </section>
+    </template>
+
+    <!-- Load your data file and rendering JS -->
+    <script src="data/content.js"></script>
+    <script src="js/render-sections.js"></script>
+  </body>
+</html>

@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/hussamalmofarreh/Desktop/CUA/Senior/Fall 2025/CSC 409/Soccer Webpage/index.html"
+            "file": "/Users/hussamalmofarreh/Desktop/CUA/Senior/Fall 2025/CSC 409/soccer_webpage/index.html"
         }
     ]
 }
